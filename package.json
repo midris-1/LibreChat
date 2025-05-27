@@ -8,6 +8,8 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "cp librechat.yaml /app/ || true",
+    "start": "cross-env NODE_ENV=production node api/server/index.js"
     "update": "node config/update.js",
     "add-balance": "node config/add-balance.js",
     "set-balance": "node config/set-balance.js",
