@@ -125,6 +125,9 @@
     "mdast-util-gfm": {
       "mdast-util-gfm-autolink-literal": "2.0.0"
     },
+    "engines": {
+    "node": "18.x"
+    },
     "katex": "^0.16.21",
     "rehype-katex": {
       "katex": "^0.16.21"
